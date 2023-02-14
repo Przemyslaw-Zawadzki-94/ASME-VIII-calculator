@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASME BPVC Sec. VIII Div. 1 Calculator", "ASME BPVC Sec. VIII Div. 1 Calculator\ASME BPVC Sec. VIII Div. 1 Calculator.csproj", "{245A102F-B859-4302-BD1C-9345C8A978F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{245A102F-B859-4302-BD1C-9345C8A978F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245A102F-B859-4302-BD1C-9345C8A978F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245A102F-B859-4302-BD1C-9345C8A978F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245A102F-B859-4302-BD1C-9345C8A978F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00C830FD-B834-4DCE-8760-5B2F25DB9E76}
+	EndGlobalSection
+EndGlobal
