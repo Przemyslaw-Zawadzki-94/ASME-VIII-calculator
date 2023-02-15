@@ -14,15 +14,26 @@ namespace ASME_BPVC_Sec._VIII_Div._1_Calculator
             Console.WriteLine("\nPress 0 to exit");
 
             int action = Convert.ToInt32(Console.ReadLine());
-
+            double shellOutsideDiameter = 0;
+            double shellWallThickness = 0;
 
             switch (action) 
             {
                 case 1:
                 {
-                        Console.WriteLine("Enter shell outside diameter D_ext [mm]");
-                        int shellOutsideDiameter = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine($"D_ext = {shellOutsideDiameter}");
+                        Console.WriteLine("a) Enter shell outside diameter D_shell_ext [mm]");
+                        shellOutsideDiameter = Convert.ToDouble(Console.ReadLine());
+
+                        Console.WriteLine("b) Enter shell wall thickness S_shell [mm]");
+                        shellWallThickness = Convert.ToDouble(Console.ReadLine());
+
+
+
+
+
+                        Console.WriteLine($"a) D_shell_ext = {shellOutsideDiameter}");
+                        Console.WriteLine($"b) S_shell = {shellWallThickness}");
+
                         break;
                 }
 
@@ -32,6 +43,7 @@ namespace ASME_BPVC_Sec._VIII_Div._1_Calculator
                     break;
                 }
             }
+            
         }
     }
 }
